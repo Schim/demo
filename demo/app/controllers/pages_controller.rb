@@ -4,6 +4,10 @@ class PagesController < ApplicationController
   end
 
   def goodbye
+		@files = Dir.glob('*')
   end
+
+def contact
+end
 
 end
